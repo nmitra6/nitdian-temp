@@ -19,5 +19,8 @@ RUN npm install
 # expose 5000 on container
 EXPOSE 4000
 
+# entrypoint
+#ENTRYPOINT: []
+
 # start the app
 CMD [ "node", "app.js" ]
