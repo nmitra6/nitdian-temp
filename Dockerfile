@@ -20,4 +20,4 @@ RUN npm install
 EXPOSE 4000
 
 # start the app
-CMD [ "NODE_ENV=production node", "app.js" ]
+CMD [ "node", "app.js" ]
