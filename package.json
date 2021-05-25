@@ -1,7 +1,10 @@
 {
   "name": "nitdian-temp",
   "version": "1.0.0",
-  "scripts": {},
+  "scripts": {
+    "build": "node build",
+    "start": "node app.js"
+  },
   "dependencies": {},
   "devDependencies": {}
 }
